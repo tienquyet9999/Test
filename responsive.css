@@ -8,6 +8,13 @@
 .navigationbar{
     display: none;
 }
+.bannertext{
+    position: absolute;
+    top: 14%;
+}
+.desktop{
+    display: none;
+}
 .banner img{
     max-width: 100%;
 }
