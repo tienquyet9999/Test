@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+.navigationbar{
+    display: none;
+}
+.banner img{
+    max-width: 100%;
+}
+.contentitem{
+    display: block;
+}
+.colleft{
+    width: 99.99999%;
+}
+.colright{
+    width: 99.99999%;
+}
+}

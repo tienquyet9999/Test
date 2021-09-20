@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigationbar{
+    background:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.menubar i{
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.menubar i:hover{
+    background-color: gray;
+}
+.searchbar{
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.header{
+    padding: 48px 16px;
+    text-align: center;
+    font-family: Osawld;
+}
+.header h1{
+    font-size: 48px;
+    margin: 10px 0px;
+}
+h6{
+    font-weight: 40px;
+    font-size: 16px;
+}
+.tag{
+    background: black !important;
+    color: white !important;
+    opacity: 1 !important;
+    font-size: 16px;
+    padding: 0px 8px;
+}
+.banner{
+    position: relative;
+    font-family: Osawld;
+}
+.banner img{
+    max-width: 100%;
+}
+.bannertext{
+    font-weight: 400 !important;
+    position: absolute;
+    bottom: 42%;
+    padding: 12px 24px;
+}
+.bannertext h1{
+    font-size: 36px;
+    color: white;
+    letter-spacing: 4px;
+    margin: 10px 0px;
+}
+.desktop{
+    margin: 10px 0px;
+    color: white;
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+.sub{
+    color: black;
+    background-color: white;
+    opacity: 0.6;
+    margin: 10px 0px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-family: Oswald;
+    cursor: pointer;
+}
+.content{
+    background-color: #f1f1f1;
+    padding: 8px 16px!important;
+    border: 1px solid #ccc!important;
+}
+.contentitem{
+    display: flex;
+    justify-content: space-between;
+}
+.colleft{
+    width: 66.66666%;
+}
+.colitem1{
+    background-color: #fff;
+    padding: 12px 24px;
+    margin: 16px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 400;
+    margin: 10px 0px;
+    font-size: 24px;
+}
+h3{
+    text-align: center;
+    font-family: Oswald;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.colitem1 h3 span{
+    opacity: 0.6;
+}
+.test{
+    text-align: justify;
+}
+.content_img{
+    padding: 16px 0;
+}
+.colitem1 p{
+    font-family: Open_sans;
+    margin: 15px 0px;
+}
+.colitem1 p span{
+    font-weight: bolder !important;
+    text-align: justify;
+    opacity: 1 !important;
+}
+.interact_bt{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.likebt{
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Open_sans;
+}
+
+.menubar .fa, .fas:hover{
+    background-color: gray;
+}
+.rep{
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border: none;
+    font-family: Open_sans;
+    font-weight: bold;
+    cursor: pointer;
+}
+.rep span{
+    background-color: white !important;
+    color: black;
+    text-align: center;
+    padding: 0px 8px;
+    display: inline-block;
+    opacity: 1 !important;
+    font-weight: lighter;
+}
+.hr_below{
+    border: 0;
+    height: 0px !important;
+}
+.colright{
+    width: 33.33333%;
+}
+.rightitem1{
+    margin: 16px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+.card img{
+    filter: grayscale(75%);
+}
+.cardbody{
+    background-color: black;
+    color: white;
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+.cardbody h4{
+    margin: 10px 0;
+}
+.cardbody p{
+    margin: 15px 0px !important;
+    font-family: Open_sans;
+}
+.hr_space{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+.rightitem2{
+    margin: 16px;
+}
+.popular{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+}
+.popular h4{
+    font-size: 20px;
+    margin: 10px 0px;
+    font-family: Oswald;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.list_item{
+    position: relative;
+    display: block;
+    padding: .5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.list_item img{
+    float: left;
+    margin-right: 16px;
+}
+.advertise{
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+}
+.advertise h4{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.item_container{
+    padding: 0px 16px;
+    background-color: white;
+}
+.tagcon{
+    padding: 15px 0;
+}
+.tag_item{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.tagcon span{
+    opacity: 1;
+    font-family: Open_sans;
+}
+.tag_item2{
+    font-size: 12px;
+    background-color: #f1f1f1;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    display: inline-block;
+    font-family: Open_sans;
+}
+.item_container2{
+    background-color: white;
+    padding: 0px 8px;
+    display: flex;
+}
+.col_item_left{
+    width: 49.99999%;
+    float: left;
+    padding: 0px 8px;
+}
+.col_item_left p{
+    margin: 15px 0px;
+}
+.col_item_right{
+    width: 49.99999%;
+    float: right;
+    padding: 0px 8px;
+}
+.col_item_right p{
+    margin: 15px 0;
+}
+.social_media{
+    padding: 8px 16px;
+    font-size: 24px;
+    background-color: white;
+}
+.hr{
+    height: 1px;
+}
+.message{
+    padding: 0px 16px;
+    color: black;
+    background-color: white;
+}
+.message p{
+    padding: 15px 0px;
+    font-family: Open_sans;
+    margin-bottom: 0 !important;
+}
+.messbut{
+    background-color: #f44336;
+    color: white;
+    border: 0;
+    font-family: Open_sans;
+    width: 100%;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.message input{
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid #ccc!important;
+    padding: 8px;
+}
+.footer{
+    background-color: #616161;
+    width: 100%;
+    padding: 32px;
+    height: 120px;
+}
+.likebt:hover{
+    background-color: gray;
+}
+.rep:hover{
+    background-color: gray;
+}
+.messbut:hover{
+    background-color: gray;
+}
+.to{
+    background: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+}
+.to i{
+    margin-right: 10px;
+}
